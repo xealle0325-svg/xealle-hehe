@@ -54,7 +54,7 @@ margin-top: -50px;
   width: 75%;
   aspect-ratio: 1 / 1; 
   object-fit: cover;
-  border: 2px solid navy
+  border: 2px solid navy;
 }
 .gold-accessory {
   display: block;
@@ -113,5 +113,12 @@ nav a:hover{
 }
 img:hover{
 	tranform: translateY(-2px);
-box-shadow: 10px 6px 12px gold;
+box-shadow: 6px 6px 6px gold;
+cursor: pointer;
+}
+ nav a:active {
+  background-color: linear-gradient(to bottom, #bbd6f2, #a9cef5);
+  color: #4fa3ff;
+  transform: translateY(2px);
+  box-shadow: none;
 }
